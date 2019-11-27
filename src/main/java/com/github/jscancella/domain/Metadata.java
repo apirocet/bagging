@@ -63,7 +63,7 @@ public class Metadata {
    * @param key the label
    * @param value the value of the label
    * 
-   * @return <tt>true</tt> (as specified by {@link Collection#add})
+   * @return true (as specified by {@link Collection#add})
    */
   public boolean add(final String key, final String value){
     if(PAYLOAD_OXUM.equalsIgnoreCase(key)){
